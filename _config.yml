@@ -2,8 +2,7 @@
 name: Less Or More
 email: chenjie2@yonyou.com
 author: chenjie2
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
+url: http://chenjie2.github.io/
 github: https://github.com/chenjie2/
 baseurl: ""
 description: Actually, less is more!
@@ -16,7 +15,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: chenjie2
 highlighter: rouge
 
 # Build settings

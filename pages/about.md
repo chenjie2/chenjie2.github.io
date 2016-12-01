@@ -20,7 +20,7 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@chenjie2](https://github.com/chenjie2)
-* Mail：[chenjie2@yonyou.com]
+* Mail：chenjie2@yonyou.com
 
 ## Skill Keywords
 

@@ -1,22 +1,108 @@
-# Site settings
-name: Less Or More
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://chenjie2.github.io
+date_format: "ordinal"
+title: Chenjie2
+subtitle: "打码改变人生"
+description: "陈杰的个人博客"
+keywords: 陈杰, chenji2
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 5
+
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: Chenjie2
+organization: Yonyou, Inc.
+organization_url: https://www.yonyou.com
+location: Beijing, China
 email: chenjie2@yonyou.com
-author: chenjie2
-url: http://chenjie2.github.io/
-github: https://github.com/chenjie2/
-baseurl: ""
-description: Actually, less is more!
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+  -
+    href: /categories/
+    label: 分类
 
-github_username: chenjie2
-highlighter: rouge
+  -
+    href: /links/
+    label: 链接
 
-# Build settings
+  -
+    href: /about/
+    label: 关于
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+
+repository: chenjie2/chenjie2.github.io
+
+# ---------------- #
+#      Socials     #
+# ---------------- #
+github_username: chenjie2
+douban_username: chenjie2
+facebook_username: chenjie2
+weibo_username: chenjie2
+zhihu_username: chenjie2
+twitter_username: chenjie2
+
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, duoshuo
+comments_provider: disqus
+# !!!重要!!! 请修改下面两个用户名为你自己申请的
+# !!!Important!!! Please modify usernames below to yours
+duoshuo_username: chenjie2
+disqus_username: chenjie2
+# 在使用 disqus 的时候可点击显示多说评论框
+lazy_load_duoshuo: true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+
+# ---------------- #
+#      Datas       #
+# ---------------- #
+skill_software_keywords: [Java, Python, Shell]
+skill_cloud_keywords: [CloudStack, Docker, Kubernetes]

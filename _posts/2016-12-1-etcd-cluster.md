@@ -6,7 +6,8 @@ description: etcd集群配置
 keywords: kubernetes, etcd
 ---
 
-etcd集群配置 
+etcd集群配置
+
 ## 启动
 nohup etcd -name infra0 -data-dir /home/infra0.etcd -initial-advertise-peer-urls http://20.12.16.90:7001 \
   -listen-peer-urls http://20.12.16.90:7001 \

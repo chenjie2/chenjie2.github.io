@@ -68,10 +68,7 @@ gems:
     - jekyll-feed
     - jemoji
 #     - jekyll-mentions
-collections:
-    wiki:
-        output: true
-        permalink: /wiki/:path/
+
 
 repository: chenjie2/chenjie2.github.io
 

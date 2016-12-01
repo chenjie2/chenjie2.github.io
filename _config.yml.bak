@@ -1,0 +1,22 @@
+# Site settings
+name: Less Or More
+email: chenjie2@yonyou.com
+author: chenjie2
+url: http://chenjie2.github.io/
+github: https://github.com/chenjie2/
+baseurl: ""
+description: Actually, less is more!
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: chenjie2
+highlighter: rouge
+
+# Build settings
+markdown: kramdown

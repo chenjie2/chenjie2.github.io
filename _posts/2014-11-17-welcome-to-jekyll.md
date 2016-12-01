@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-date:   2014-11-17 13:31:01 +0800
+description: 我写的第一篇文章。
 categories: jekyll
+keywords: jekyll
 ---
 
 

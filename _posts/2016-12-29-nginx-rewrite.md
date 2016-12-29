@@ -47,6 +47,7 @@ flag标志位
 -x和!-x用来判断文件是否可执行
 
 例如：
+
 ```
 if ($http_user_agent ~ MSIE) {
     rewrite ^(.*)$ /msie/$1 break;
@@ -132,6 +133,7 @@ $request_filename：/var/www/html/test1/test2/test.php
 ## rewrite实例
 
 例1：
+
 ```
 http {
     # 定义image日志格式

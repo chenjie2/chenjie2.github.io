@@ -17,11 +17,11 @@ JHipster GitHub地址：https://jhipster.github.io/
 
 * 2、安装Maven
 
-　　Maven地址（http://maven.apache.org/） 
+  Maven地址（http://maven.apache.org/） 
 
 * 3、安装Git（https://git-scm.com/）
 
-　　如果需要你也可以选择安装Git客户端SourceTree（https://www.sourcetreeapp.com/）
+  如果需要你也可以选择安装Git客户端SourceTree（https://www.sourcetreeapp.com/）
 
 * 4、安装NodeJs，推荐LTS版本（http://nodejs.org/）安装的同时它也会帮你装上npm包管理器
 
